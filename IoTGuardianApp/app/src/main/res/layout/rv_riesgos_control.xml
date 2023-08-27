@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/controlIcon_iv"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        style="@style/RecyclerIconStyle"
+        tools:srcCompat="@tools:sample/avatars"/>
+
+    <LinearLayout
+        android:id="@+id/controlName_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/controlIcon_iv"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/controlName_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            tools:text="Control"/>
+
+        <ImageView
+            android:id="@+id/controlAddedIcon_iv"
+            style="@style/RecyclerIconStyle"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/check_circle" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_iv"
+        style="@style/RecyclerIconStyle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/arrow_down" />
+
+    <TextView
+        android:id="@+id/controlDescription_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/controlName_ll"
+        android:padding="8dp"
+        tools:text="Descripcion" />
+
+</RelativeLayout>

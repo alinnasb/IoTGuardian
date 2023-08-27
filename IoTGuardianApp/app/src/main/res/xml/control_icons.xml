@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector android:drawable="@drawable/control1" android:name="control1" />
+    <vector android:drawable="@drawable/control2" android:name="control2" />
+    <vector android:drawable="@drawable/control3" android:name="control3" />
+    <vector android:drawable="@drawable/control4" android:name="control4" />
+    <vector android:drawable="@drawable/control5" android:name="control5" />
+    <vector android:drawable="@drawable/control6" android:name="control6" />
+    <vector android:drawable="@drawable/control7" android:name="control7" />
+    <vector android:drawable="@drawable/control8" android:name="control8" />
+    <vector android:drawable="@drawable/control9" android:name="control9" />
+    <vector android:drawable="@drawable/control10" android:name="control10" />
+    <vector android:drawable="@drawable/control11" android:name="control11" />
+    <vector android:drawable="@drawable/control12" android:name="control12" />
+    <vector android:drawable="@drawable/control13" android:name="control13" />
+    <vector android:drawable="@drawable/control14" android:name="control14" />
+    <vector android:drawable="@drawable/control15" android:name="control15" />
+    <vector android:drawable="@drawable/control16" android:name="control16" />
+    <vector android:drawable="@drawable/control17" android:name="control17" />
+    <vector android:drawable="@drawable/control18" android:name="control18" />
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_apps"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="@string/bottom_nav_apps" />
+    <item
+        android:id="@+id/page_riesgos"
+        android:icon="@drawable/ic_baseline_app_blocking_24"
+        android:title="@string/bottom_nav_riesgos" />
+    <item
+        android:id="@+id/page_controles"
+        android:icon="@drawable/ic_baseline_app_shortcut_24"
+        android:title="@string/bottom_nav_controles" />
+    <item
+        android:id="@+id/page_perfil"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/bottom_nav_perfil"/>
+</menu>

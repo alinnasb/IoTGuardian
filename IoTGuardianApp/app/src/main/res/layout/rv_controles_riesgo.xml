@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp">
+
+    <ImageView
+        android:id="@+id/riesgoIcon_iv"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        style="@style/RecyclerIconStyle"
+        tools:srcCompat="@tools:sample/avatars"/>
+
+    <LinearLayout
+        android:id="@+id/containerLLriesgoName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/riesgoIcon_iv"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/riesgoName_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:inputType="textMultiLine"
+            tools:text="Riesgo"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow_iv"
+        style="@style/RecyclerIconStyle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/arrow_down" />
+
+    <TextView
+        android:id="@+id/riesgoDescription_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/containerLLriesgoName_tv"
+        android:padding="8dp"
+        tools:text="Descripcion"/>
+
+</RelativeLayout>

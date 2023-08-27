@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector android:drawable="@drawable/risk1" android:name="risk1" />
+    <vector android:drawable="@drawable/risk2" android:name="risk2" />
+    <vector android:drawable="@drawable/risk3" android:name="risk3" />
+    <vector android:drawable="@drawable/risk4" android:name="risk4" />
+    <vector android:drawable="@drawable/risk5" android:name="risk5" />
+    <vector android:drawable="@drawable/risk6" android:name="risk6" />
+    <vector android:drawable="@drawable/risk7" android:name="risk7" />
+    <vector android:drawable="@drawable/risk8" android:name="risk8" />
+    <vector android:drawable="@drawable/risk9" android:name="risk9" />
+    <vector android:drawable="@drawable/risk10" android:name="risk10" />
+    <vector android:drawable="@drawable/risk11" android:name="risk11" />
+    <vector android:drawable="@drawable/risk12" android:name="risk12" />
+</resources>

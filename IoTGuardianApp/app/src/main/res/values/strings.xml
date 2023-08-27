@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IoTGuardian</string>
+
+    <string name="bottom_nav_apps">IoT</string>
+    <string name="bottom_nav_riesgos">RIESGOS</string>
+    <string name="bottom_nav_controles">CONTROLES</string>
+    <string name="bottom_nav_perfil">PERFIL</string>
+
+    <string name="search_hint">Buscar dispositivos</string>
+
+    <string name="loadCorrect">Se han cargado %d dispositivos</string>
+    <string name="loadError">Ha ocurrido un error al acceder a los datos</string>
+
+    <string name="app_detail_riesgos_title">Riesgos</string>
+    <string name="riesgos_detail_controles_title">Controles para mitigarlo</string>
+    <string name="controles_detail_riesgos_title">Riesgos que mitiga</string>
+
+    <string name="app_detail_add">Añadir</string>
+    <string name="app_detail_remove">Eliminar</string>
+
+    <string name="perfil_tabApps">Dispositivos usados</string>
+    <string name="perfil_tabControles">Controles aplicados</string>
+
+    <string name="nivelRiesgoAlto">Riesgo alto</string>
+    <string name="nivelRiesgoMedio">Riesgo medio</string>
+    <string name="nivelRiesgoBajo">Riesgo bajo</string>
+    <string name="appAdded">Añadida</string>
+    <string name="controlAdded">Aplicado</string>
+</resources>

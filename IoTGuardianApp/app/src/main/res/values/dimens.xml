@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="standard_margin" tools:ignore="MissingDefaultResource">16dp</dimen>
+    <dimen name="list_height" tools:ignore="MissingDefaultResource">42dp</dimen>
+    <dimen name="divider" tools:ignore="MissingDefaultResource">6dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>
