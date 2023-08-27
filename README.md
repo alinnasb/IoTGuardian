@@ -9,11 +9,6 @@ IoTGuardian se compone de dos elementos principales: un servicio REST y una apli
 
 La aplicación móvil está implementada en Android Studio, proporciona una interfaz intuitiva y fácil de usar para que los usuarios puedan registrar y gestionar los dispositivos IoT que utilizan. Además de ofrecer información detallada sobre los riesgos asociados a cada dispositivo, la aplicación también brinda recomendaciones personalizadas de controles para mitigar estos riesgos. Esto permite a los usuarios tomar medidas proactivas y adoptar prácticas de seguridad adecuadas mientras utilizan dispositivos IoT.
 
-## Indicaciones
-Dado que el servicio aún no está alojado en ningún servidor, es necesario ejecutarlo localmente. Para hacerlo, ve a la carpeta *IoTGuardianService/target* y ejecuta el comando *java -jar IoTGuardian-0.0.1-SNAPSHOT.jar*.
-
-Una vez que el servicio esté en funcionamiento, podrás ejecutar la aplicación en Android Studio, pero antes deberás modificar el atributo *API_URL* en la clase *IoTGuardianApp/app/src/main/java/es/unican/iotguardian/repository/rest/IoTGuardianServiceConstants* con la dirección IP de tu propio ordenador. En la primera ejecución, los datos del servicio se descargarán automáticamente, por lo que en las ejecuciones posteriores no será necesario que el servicio esté en funcionamiento.
-
 ## Aplicación
 La interfaz de la aplicación se divide en distintas secciones para facilitarte la navegación y la visualización de la información. En la sección "IoT", podrás explorar el catálogo de dispositivos IoT, realizar búsquedas y acceder a detalles específicos de cada dispositivo, incluyendo sus riesgos asociados. Además, podrás agregar o eliminar dispositivos IoT de tu perfil personal.
 
