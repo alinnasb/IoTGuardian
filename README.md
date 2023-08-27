@@ -27,6 +27,8 @@ También podrás explorar la sección "Controles", donde se proporcionará una l
 
 ![Seccion Controles](images/seccion_controles.png)
 
-La aplicación permitirá la interacción entre las distintas secciones. Esto significa que podrás acceder rápidamente, por ejemplo, a la vista detallada de un riesgo desde la vista detallada de los dispositivos IoT. Además, se incluye una sección personal donde podrás ver tu nivel de riesgo calculado en función de los dispositivos IoT asociados y los controles aplicados. Aquí, también podrás visualizar y administrar los dispositivos IoT y controles agregados a tu perfil personal.
+La aplicación permitirá la interacción entre las distintas secciones. Esto significa que podrás acceder rápidamente, por ejemplo, a la vista detallada de un riesgo desde la vista detallada de los dispositivos IoT. 
+
+Además, se incluye una sección personal donde podrás ver tu nivel de riesgo calculado en función de los dispositivos IoT asociados y los controles aplicados. Aquí, también podrás visualizar y administrar los dispositivos IoT y controles agregados a tu perfil personal.
 
 ![Seccion Perfil](images/seccion_perfil.png)
